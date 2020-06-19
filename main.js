@@ -32,4 +32,8 @@ inputButtonPush.addEventListener("click",function(){ let inputValuess = document
         let newdiv=document.createElement('div')
         mainElement.append(newdiv)
         newdiv.append(inputValuess)
+        document.querySelector("div").style.fontSize = "25px";
 })
+document.querySelector("body").style.backgroundColor = "coral";
+document.querySelector("a").style.fontSize = "40px";
+document.querySelector("a").style.color = "green";
