@@ -20,3 +20,16 @@ main.append(anchorchoice)
 let removeButtonPush=document.querySelector('.removeButton')
 removeButtonPush.addEventListener("click", function () {
    main.remove(); })
+   let inputText=document.createElement('input')
+   mainElement.append(inputText)
+   inputText.id='textOutput'
+  
+addElement('button','enter','inputButton')
+let inputButtonPush=document.querySelector('.inputButton')
+
+
+inputButtonPush.addEventListener("click",function(){ let inputValuess = document.getElementById("textOutput").value;
+        let newdiv=document.createElement('div')
+        mainElement.append(newdiv)
+        newdiv.append(inputValuess)
+})
